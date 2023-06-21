@@ -22,19 +22,19 @@
             <p>
                 {{ $job->short_description }}
             </p>
-            <h5>Job Nature: {{ $job->job_nature }}</h5>
+            <h5>Ажилын цаг: {{ $job->job_nature }}</h5>
             <p class="address"><span class="lnr lnr-map"></span> {{ $job->address }}</p>
             <p class="address"><span class="lnr lnr-database"></span> {{ $job->salary }}</p>
         </div>
     </div>	
     <div class="single-post job-details">
-        <h4 class="single-title">Whom we are looking for</h4>
+        <h4 class="single-title">Ажилын чадвар</h4>
         <p>
             {{ $job->full_description }}
         </p>
     </div>
     <div class="single-post job-experience">
-        <h4 class="single-title">Experience Requirements</h4>
+        <h4 class="single-title">Шаардлагтай чадварууд</h4>
         <p>
             {{ $job->requirements }}
         </p>
