@@ -38,6 +38,7 @@
         <p>
             {{ $job->requirements }}
         </p>
-    </div>													
+    </div>		
+    <a class="text-uppercase loadmore-btn mx-auto d-block" href="{{ route('cv') }}">Өргөдөл илгээх</a>        											
 </div>
 @endsection

@@ -31,8 +31,14 @@ class HomeController extends Controller
             ->searchResults()
             ->paginate(7);
 
-        $banner = 'Search results';
+        $banner = 'Хайлтын үр дүн';
 
         return view('jobs.index', compact(['jobs', 'banner']));
+    }
+
+    public function cv(Request $request)
+    {
+    
+        return view('jobs.cv');
     }
 }

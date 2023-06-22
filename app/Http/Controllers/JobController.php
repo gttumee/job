@@ -24,4 +24,11 @@ class JobController extends Controller
 
         return view('jobs.show', compact('job'));
     }
+    
+    public function cv()
+    {
+        return view('jobs.cv');
+    }
+
+
 }
