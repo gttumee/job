@@ -74,13 +74,16 @@
                 <h5>Ажилын цаг: {{ $job->job_nature }}</h5>
                 <p class="address"><span class="lnr lnr-map"></span> {{ $job->address }}</p>
                 <p class="address"><span class="lnr lnr-database"></span> {{ $job->salary }}</p>
+<<<<<<< HEAD
                 <button type="submit" class="btn btn-info" onclick="location.href='{{ route('jobs.show', $job->id) }}' ">
                   Дэлгэрэнгүй
                   </button>
+=======
+                <button type="submit" class="btn btn-info"onclick="location.href='{{ route('jobs.show', $job->id) }}' ">Дэлгэрэнгүй</button>
+>>>>>>> dev-tumee
             </div>
         </div>
     @endforeach
-
-    <a class="text-uppercase loadmore-btn mx-auto d-block" href="{{ route('jobs.index') }}">Бусад ажилын байр харах</a>
+    <a class="text-uppercase loadmore-btn mx-auto d-block" href="{{ route('jobs.index') }}">Илүү</a>
 </div>	
 @endsection
