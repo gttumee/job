@@ -15,7 +15,7 @@ class LocationController extends Controller
             })
             ->paginate(7);
 
-        $banner = 'Location: '.$location->name;
+        $banner = 'Байршил: '.$location->name;  
     
         return view('jobs.index', compact(['jobs', 'banner']));
     }

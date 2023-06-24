@@ -15,7 +15,7 @@ class CategoryController extends Controller
             })
             ->paginate(7);
 
-        $banner = 'Category: '.$category->name;
+        $banner = 'Ангилал: '.$category->name;
     
         return view('jobs.index', compact(['jobs', 'banner']));
     }

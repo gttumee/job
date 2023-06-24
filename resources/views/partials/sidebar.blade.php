@@ -1,6 +1,6 @@
 <div class="col-lg-4 sidebar">
     <div class="single-slidebar">
-        <h4>Байршилаар ажил хайх</h4>
+        <h4>Байршил</h4>
         <ul class="cat-list">
             @foreach($sidebarLocations as $location)
                 <li><a class="justify-content-between d-flex" href="{{ route('locations.show', $location->id) }}"><p>{{ $location->name }}</p><span>{{ $location->jobs_count }}</span></a></li>
@@ -24,7 +24,7 @@
                         {{ $job->short_description }}
                     </p>
                     @if($job->job_nature)
-                        <h5>Job Nature: {{ $job->job_nature }}</h5>
+                        <h5>Ажиллах цаг: {{ $job->job_nature }}</h5>
                     @endif
                     @if($job->address)
                         <p class="address"><span class="lnr lnr-map"></span> {{ $job->address }}</p>
