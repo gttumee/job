@@ -30,9 +30,7 @@ class HomeController extends Controller
         $jobs = Job::with('company')
             ->searchResults()
             ->paginate(7);
-
-        $banner = 'Search results';
-
+        $banner = count($jobs). ' Ажилын байр байна.';
         return view('jobs.index', compact(['jobs', 'banner']));
     }
 }

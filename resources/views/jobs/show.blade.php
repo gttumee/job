@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('banner', 'Job: '.$job->title)
+@section('banner', 'Нэр : '.$job->title)
 
 @section('content')
 <div class="col-lg-8 post-list">

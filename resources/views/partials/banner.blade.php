@@ -6,8 +6,10 @@
                 <div class="about-content col-lg-12">
                     <h1 class="text-white">
                         @yield('banner')
+              
+
                     </h1>	
-                    <p class="text-white link-nav"><a href="{{ route('home') }}">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ url()->full() }}"> @yield('banner')</a></p>
+                    <p class="text-white link-nav"><button type="submit" class="btn btn-info"onclick="location.href='{{ route('home') }}' ">Буцах</button>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ url()->full() }}"> @yield('banner')</a></p>
                 </div>											
             </div>
         </div>
