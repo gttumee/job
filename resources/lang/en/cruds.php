@@ -2,8 +2,8 @@
 
 return [
     'userManagement' => [
-        'title'          => 'User management',
-        'title_singular' => 'User management',
+        'title'          => 'Хэрэглэгч тохиргоо',
+        'title_singular' => 'Хэрэглэгч тохиргоо',
     ],
     'permission'     => [
         'title'          => 'Permissions',
@@ -40,8 +40,8 @@ return [
         ],
     ],
     'user'           => [
-        'title'          => 'Users',
-        'title_singular' => 'User',
+        'title'          => 'Хэрэглэгч',
+        'title_singular' => 'Хэрэглэгч',
         'fields'         => [
             'id'                       => 'ID',
             'id_helper'                => '',
@@ -66,8 +66,8 @@ return [
         ],
     ],
     'category'       => [
-        'title'          => 'Categories',
-        'title_singular' => 'Category',
+        'title'          => 'Төрөл',
+        'title_singular' => 'Төрөл',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',
@@ -82,8 +82,8 @@ return [
         ],
     ],
     'location'       => [
-        'title'          => 'Locations',
-        'title_singular' => 'Location',
+        'title'          => 'Байршил',
+        'title_singular' => 'Байршил',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',
@@ -98,8 +98,8 @@ return [
         ],
     ],
     'company'        => [
-        'title'          => 'Companies',
-        'title_singular' => 'Company',
+        'title'          => 'Компани',
+        'title_singular' => 'Компани',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',
@@ -116,26 +116,26 @@ return [
         ],
     ],
     'job'            => [
-        'title'          => 'Jobs',
-        'title_singular' => 'Job',
+        'title'          => 'Ажил',
+        'title_singular' => 'Ажил',
         'fields'         => [
             'id'                       => 'ID',
             'id_helper'                => '',
-            'title'                    => 'Title',
+            'title'                    => 'Гарчиг',
             'title_helper'             => '',
-            'short_description'        => 'Short Description',
+            'short_description'        => 'Ажилын байрны нэр',
             'short_description_helper' => '',
-            'full_description'         => 'Full Description',
+            'full_description'         => 'Ажилын тодорхойлолт',
             'full_description_helper'  => '',
-            'requirements'             => 'Requirements',
+            'requirements'             => 'Шаардлага',
             'requirements_helper'      => '',
-            'job_nature'               => 'Job Nature',
+            'job_nature'               => 'Цагын төрөл',
             'job_nature_helper'        => '',
-            'location'                 => 'Location',
+            'location'                 => 'Байршил',
             'location_helper'          => '',
-            'address'                  => 'Address',
+            'address'                  => 'Хаяг',
             'address_helper'           => '',
-            'top_rated'                => 'Top Rated',
+            'top_rated'                => 'Сайн үзүүлэлттэй',
             'top_rated_helper'         => '',
             'created_at'               => 'Created at',
             'created_at_helper'        => '',
@@ -143,11 +143,11 @@ return [
             'updated_at_helper'        => '',
             'deleted_at'               => 'Deleted at',
             'deleted_at_helper'        => '',
-            'company'                  => 'Company',
+            'company'                  => 'Компани',
             'company_helper'           => '',
-            'categories'               => 'Categories',
+            'categories'               => 'Төрөл',
             'categories_helper'        => '',
-            'salary'                   => 'Salary',
+            'salary'                   => 'Цалин',
             'salary_helper'            => '',
         ],
     ],
